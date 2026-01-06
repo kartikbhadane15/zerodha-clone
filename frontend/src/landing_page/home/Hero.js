@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container p-5 mb-5">
+    <div className="container p-5 mb-5" >
       <div className="row text-center">
         <img
           src="media/images/homeHero.png"
@@ -18,7 +18,7 @@ function Hero() {
           className="p-2 mt-3 btn btn-primary fs-5 mb-5"
           style={{ width: "20%", margin: "0 auto" }}
         >
-          Signup Now
+          Sign up Now
         </button>
       </div>
     </div>
