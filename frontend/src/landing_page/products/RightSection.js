@@ -7,14 +7,12 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
       <div className="row align-items-center">
         {/* Text section */}
         <div
-          className="col-5 p-5"
-          style={{ lineHeight: "1.8", fontSize: "20px" }}
-        >
+          className="col-5 p-5" >
           <h1 style={{ fontSize: "32px", fontWeight: "500" }}>
             {productName}
           </h1>
 
-          <p className="text-muted mt-4">
+          <p className="text-muted mt-4 " style={{ lineHeight: "1.8", fontSize: "20px" }}>
             {productDesription}
           </p>
 
