@@ -1,0 +1,85 @@
+/* ===== Zerodha-like Buy/Sell panel ===== */
+
+.container {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  position: absolute;
+  top: 120px;
+  right: 40px;
+
+  z-index: 10;
+}
+
+.regular-order {
+  padding: 20px;
+}
+
+.inputs {
+  display: flex;
+  gap: 12px;
+}
+
+.inputs fieldset {
+  border: 1px solid #ddd;
+  padding: 6px;
+  width: 100%;
+}
+
+.inputs fieldset legend {
+  font-size: 12px;
+  padding: 0 6px;
+}
+
+.inputs input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.inputs input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-top: 1px solid #eee;
+}
+
+.buttons span {
+  font-size: 13px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.btn-blue {
+  background: #4184f3;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background: #74a7fa;
+}
+
+.btn-grey {
+  background: #d4d4d4;
+  color: #666;
+}
+
+.btn-grey:hover {
+  background: #9b9b9b;
+  color: #fff;
+}
